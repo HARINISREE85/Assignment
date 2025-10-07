@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h1>Admission form</h1>
+    </center>
+    <form>
+      <fieldset>
+        <legend>Admission form</legend>
+        <label for="Name">Name</label>
+        <input type="text" /><br />
+        <label for="DOB">DOB</label>
+        <input type="date" /><br />
+        <label for="Email">Email</label>
+        <input type="Email" /><br />
+        <label for="Phone number">Phone number</label>
+        <input type="number" /><br />
+        <!--single choice-->
+        <label for="Gender">Gender</label>
+        <input type="radio" id="male" name="Gender" value="Male" />
+        <label for="male"> Male</label>
+        <input type="radio" id="female" name="Gender" value="Female" />
+        <label for="female">Female</label><br /><br />
+        <label for="Register number">Register number</label>
+        <input type="number" /><br />
+        <label for="Password">Password</label>
+        <input
+          type="password"
+          id="Password"
+          name="Password"
+          min="5"
+          max="10"
+          required
+        /><br />
+        <!--Multiple choice-->
+        <label for="Sports">Sports</label><br />
+        <input
+          type="checkbox"
+          name="Sports"
+          value="volleyball"
+        />volleyball<br />
+        <input type="checkbox" name="Sports" value="cricket" />cricket<br />
+        <input type="checkbox" name="Sports" value="Hockey" />Hockey<br />
+        <input type="checkbox" name="Sports" value="Tennis" />Tennis<br />
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
