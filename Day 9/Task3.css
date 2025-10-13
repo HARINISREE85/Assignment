@@ -1,0 +1,23 @@
+h1{
+text-align: center;
+color: rgb(123, 4, 28);
+background-color: rgb(159, 230, 18);
+}
+.p1{
+    border: 10px solid black; 
+    color: rgb(89, 0, 255);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.p2{
+    border: 10px solid rgb(141, 7, 67);
+    color: blueviolet;
+    padding: 20px;
+      margin-bottom: 30px;
+}
+.p3{
+    border: 10px solid rgb(1, 62, 21);
+    color: rgb(63, 3, 72);
+    padding: 10px;
+      margin-bottom: 30px;
+}

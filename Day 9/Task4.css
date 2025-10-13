@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: rgb(209, 209, 217);
+    background-color: blue;
+}
+.p1{
+    border: 10px solid chocolate;
+    
+}
+.p2{
+    border: 20px dotted greenyellow;
+}
+.p3{
+    border: 30px double crimson;
+}
