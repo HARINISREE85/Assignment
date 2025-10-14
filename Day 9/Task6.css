@@ -1,0 +1,28 @@
+.a1{
+width: 500px;
+height: 350px;
+border: 10px solid rgb(2, 2, 2);
+color: black;
+background-color: rgb(255, 255, 255);
+padding:20px ;
+margin: 10px;
+text-align: center;
+margin-left: 30%;
+}
+h1{
+    background-color: pink;
+    color: deeppink;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ta{
+    background-color:dodgerblue;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+hr{
+    cursor: pointer;
+}
+

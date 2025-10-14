@@ -1,0 +1,20 @@
+.ab{
+    background-color: darkseagreen;
+    color: darkmagenta;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.cd{
+    background-color: bisque;
+    color: blueviolet;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid salmon;
+    margin: 10px;
+    box-sizing: content-box;
+}
