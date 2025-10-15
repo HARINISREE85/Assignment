@@ -1,0 +1,91 @@
+.Gradient{
+ background-image: linear-gradient(to bottom, rgb(53, 6, 140), rgb(9, 153, 237));
+ text-align: center;
+ color: aliceblue;
+}
+.Gradient{
+    text-shadow: 2px 2px 4px #000000;
+}
+.Gradient{
+  font-family: "h1", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.banner{
+  background-image: url(images.png);
+  height: 300px;
+  width: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px;
+  margin-LEFT: 10%;
+}
+.bannertext{
+  text-align: center;
+}
+.nav{
+  position: relative;
+  left: 350px;
+  color: black;
+}
+.vijay{
+  border: 10px solid blueviolet;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  width: 300px;
+  height:300px;
+  margin-left:30%;
+}
+.box{
+  border:5px solid crimson;
+  padding:10px;
+  margin:10px;
+}
+.relative{
+  position: relative;
+  left: 100px;
+  background-color: brown;
+}
+.absolute{
+  position: absolute;
+  right: 60px;
+  background-color: aquamarine;
+}
+.fixed{
+  position:fixed;
+  background-color: blue;
+}
+.Fixed{
+    background-color: rgb(207, 207, 27);
+}
+.nav{
+    background-color: palevioletred ;
+    height: 20px;
+    width: 50px;
+    border: 5px solid purple;
+    padding: 10px;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+.line{
+    letter-spacing:2px;
+    word-spacing: 3px;
+    color: darkorchid;
+    background-color: rgb(214, 202, 151);
+}
+.Sticky{
+
+    text-align: center;
+    color: rgb(213, 58, 6);
+
+}
+#a1{
+    position: sticky;
+    background-color: chartreuse;
+    top: 0;
+}
