@@ -1,0 +1,15 @@
+.progress {
+  width: 300px;
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.bar {
+  height: 20px;
+  width: 0%;
+  background: #4CAF50;
+  animation: fill 3s forwards;
+}
+@keyframes fill {
+  to { width: 100%; }
+}

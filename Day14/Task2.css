@@ -1,0 +1,7 @@
+@keyframes moveText {
+  from { transform: translateX(0); }
+  to { transform: translateX(300px); }
+}
+h2 {
+  animation: moveText 3s linear infinite alternate;
+}

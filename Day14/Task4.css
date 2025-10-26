@@ -1,0 +1,11 @@
+@keyframes rotateBox {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  animation: rotateBox 2s linear infinite;
+}
+
