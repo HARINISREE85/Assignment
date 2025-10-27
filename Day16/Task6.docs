@@ -1,0 +1,22 @@
+20 Points About JavaScript
+
+1. JavaScript was created in 1995 by Brendan Eich at Netscape.
+2. It was originally called Mocha, then LiveScript, and finally JavaScript.
+3. JavaScript is a high-level, interpreted programming language.
+4. It is mainly used to make web pages interactive and dynamic.
+5. JavaScript runs directly in the browser without the need for compilation.
+6. It was standardized by ECMA International as ECMAScript (ES).
+7. ES6, released in 2015, introduced major updates like let, const, and arrow functions.
+8. JavaScript can run both on the client-side and server-side (via Node.js).
+9. Node.js, introduced in 2009, allows JavaScript to be used for backend development.
+10. Popular JavaScript frameworks include React, Angular, and Vue.js.
+11. JavaScript supports object-oriented, functional, and event-driven programming styles.
+12. It plays a key role in building Single Page Applications (SPAs).
+13. AJAX allows JavaScript to fetch data without reloading the page.
+14. JSON (JavaScript Object Notation) is a lightweight format for data exchange.
+15. JavaScript uses the Document Object Model (DOM) to interact with HTML elements.
+16. JavaScript engines like V8 (used in Chrome) and SpiderMonkey (used in Firefox) execute the code efficiently.
+17. TypeScript is a superset of JavaScript that adds static typing.
+18. JavaScript is also used in mobile app development with tools like React Native.
+19. Modern ECMAScript versions are released annually with new features.
+20. JavaScript remains one of the most popular programming languages worldwide.
