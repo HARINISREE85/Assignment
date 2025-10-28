@@ -1,0 +1,17 @@
+let a=true;
+console.log(typeof a);
+const b=10;
+console.log(typeof b);
+let c="Harini";
+console.log(typeof c);
+let d=122344756789n;
+console.log(typeof d);
+const e=null;
+console.log(typeof e);
+let unassigned;
+console.log(unassigned);
+
+
+
+
+
