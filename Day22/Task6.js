@@ -6,7 +6,7 @@ class Product {
 }
 discountedPrice(discount) {
     const finalPrice = this.price - (this.price * discount / 100);
-    console.log(Product: ${this.name}, Discounted Price: ₹${finalPrice});
+    console.log(`Product: ${this.name}, Discounted Price: ₹${finalPrice}`);
   }
 }
 const item = new Product("Shoes", 2000);
