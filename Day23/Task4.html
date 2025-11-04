@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Remove the first item of a list using removeChild().-->
+    <ul id="mylist">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>orange</li>
+        <li>Banana</li>
+    </ul>
+    <button onclick="removeFirstItem()">RemoveFirstItem</button>
+    <script>
+function removeFirstItem() {
+   let list = document.getElementById("mylist");
+   let firstItem = list.firstElementChild;
+   list.removeChild(firstItem);
+}
+</script>
+</body>
+</html>
