@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interactive Info Card</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        .card {
+            width: 250px;
+            padding: 15px;
+            background: #f2f2f2;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .card-content {
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="card" id="infoCard">
+        <div class="card-title">Click to Expand</div>
+        <div class="card-content">
+            <p>
+                This is the hidden content inside the info card.  
+                Click again to collapse the card.
+            </p>
+        </div>
+    </div>
+<script>
+        $("#infoCard").click(function () {
+            $(".card-content").slideToggle();
+        });
+    </script>
 </body>
 </html>

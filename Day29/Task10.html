@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz Toggler</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        .box {
+            width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+            font-family: Arial, sans-serif;
+        }
+        .answer-box {
+            display: none;
+            margin-top: 10px;
+            padding: 15px;
+            background: #e3ffe3;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    
+     <div class="box">
+        <h3>Quiz Question</h3>
+        <p>What is the capital of France?</p>
+
+        <button id="showAns">Show Answer</button>
+        <button id="hideAns">Hide Answer</button>
+
+        <div class="answer-box" id="answer">
+            The capital of France is <strong>Paris</strong>.
+        </div>
+    </div>
+
+    <script>
+        $("#showAns").click(function () {
+            $("#answer").show();
+        });
+
+        $("#hideAns").click(function () {
+            $("#answer").hide();
+        });
+    </script>
 </body>
 </html>

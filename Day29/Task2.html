@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hide & Show with jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 <body>
-    
+    <p id="text">This is a paragraph that will be shown and hidden using jQuery.</p>
+    <button id="hideBtn">Hide</button>
+    <button id="showBtn">Show</button>
+    <script>
+        $("#hideBtn").click(function () {
+            $("#text").hide();
+        });
+        $("#showBtn").click(function () {
+            $("#text").show();
+        });
+    </script>
 </body>
 </html>

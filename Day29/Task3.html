@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Toggle Image Visibility</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 <body>
-    
+    <button id="toggleBtn">Toggle Image</button>
+   <br><br>
+   <img id="myImg" src="./images/images.jpeg" alt="Sample Image">
+   <script>
+        $("#toggleBtn").click(function () {
+            $("#myImg").toggle();
+        });
+    </script>
 </body>
 </html>

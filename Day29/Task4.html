@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Change Color & Text with jQuery</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 <body>
-    
+    <h2 id="myHeading">Original Text</h2>
+    <button id="changeBtn">Change Text & Color</button>
+
+    <script>
+        $("#changeBtn").click(function () {
+            $("#myHeading")
+                .text("This text has been changed!")
+                .css("color", "blue");
+        });
+    </script>
 </body>
 </html>
